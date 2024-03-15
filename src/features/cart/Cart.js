@@ -117,9 +117,10 @@ export default function Cart() {
                 Checkout
               </Link>
             </div>
-            <div className="mt-6 flex justify-center text-center text-sm text-gray-500">
-              <p>
+            <div className=" flex justify-center text-center text-sm text-gray-500">
+              <p className="text-xl my-5 font-bold tracking-tight text-gray-900">
                 or
+                <br/>
                 <Link to="/">
                   <button
                     type="button"
