@@ -14,6 +14,7 @@ import {
   selectCurrentOrder,
 } from '../features/order/orderSlice';
 import { selectUserInfo } from '../features/user/userSlice';
+import NavBar from '../features/navbar/Navbar';
 
 function Checkout() {
   const dispatch = useDispatch();
@@ -79,6 +80,7 @@ function Checkout() {
 
   return (
     <>
+    <NavBar>
       {!items.length && <Navigate to="/" replace={true}></Navigate>}
       {currentOrder && (
         <Navigate
@@ -492,6 +494,7 @@ function Checkout() {
           </div>
         </div>
       </div>
+      </NavBar>
     </>
   );
 }

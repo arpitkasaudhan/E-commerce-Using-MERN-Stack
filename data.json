@@ -4,9 +4,9 @@
       "id": "1",
       "title": "iPhone 9",
       "description": "An apple mobile which is nothing like apple",
-      "price": 549,
+      "price": 993,
       "discountPercentage": 12.96,
-      "rating": 4.69,
+      "rating": 0,
       "stock": 94,
       "brand": "Apple",
       "category": "smartphones",
@@ -15,17 +15,17 @@
         "https://cdn.dummyjson.com/product-images/1/1.jpg",
         "https://cdn.dummyjson.com/product-images/1/2.jpg",
         "https://cdn.dummyjson.com/product-images/1/3.jpg",
-        "https://cdn.dummyjson.com/product-images/1/4.jpg",
         "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
-      ]
+      ],
+      "deleted": true
     },
     {
       "id": "2",
       "title": "iPhone X",
       "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-      "price": 899,
+      "price": 1111,
       "discountPercentage": 17.94,
-      "rating": 4.44,
+      "rating": 0,
       "stock": 34,
       "brand": "Apple",
       "category": "smartphones",
@@ -56,9 +56,9 @@
       "id": "4",
       "title": "OPPOF19",
       "description": "OPPO F19 is officially announced on April 2021.",
-      "price": 280,
+      "price": 300,
       "discountPercentage": 17.91,
-      "rating": 4.3,
+      "rating": 0,
       "stock": 123,
       "brand": "OPPO",
       "category": "smartphones",
@@ -67,7 +67,6 @@
         "https://cdn.dummyjson.com/product-images/4/1.jpg",
         "https://cdn.dummyjson.com/product-images/4/2.jpg",
         "https://cdn.dummyjson.com/product-images/4/3.jpg",
-        "https://cdn.dummyjson.com/product-images/4/4.jpg",
         "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg"
       ]
     },
@@ -92,9 +91,9 @@
       "id": "6",
       "title": "MacBook Pro",
       "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-      "price": 1749,
+      "price": 1999,
       "discountPercentage": 11.02,
-      "rating": 4.57,
+      "rating": 0,
       "stock": 83,
       "brand": "Apple",
       "category": "laptops",
@@ -103,7 +102,7 @@
         "https://cdn.dummyjson.com/product-images/6/1.png",
         "https://cdn.dummyjson.com/product-images/6/2.jpg",
         "https://cdn.dummyjson.com/product-images/6/3.png",
-        "https://cdn.dummyjson.com/product-images/6/4.jpg"
+        "https://cdn.dummyjson.com/product-images/6/thumbnail.png"
       ]
     },
     {
@@ -213,7 +212,6 @@
         "https://cdn.dummyjson.com/product-images/12/1.jpg",
         "https://cdn.dummyjson.com/product-images/12/2.jpg",
         "https://cdn.dummyjson.com/product-images/12/3.png",
-        "https://cdn.dummyjson.com/product-images/12/4.jpg",
         "https://cdn.dummyjson.com/product-images/12/thumbnail.jpg"
       ]
     },
@@ -1838,6 +1836,23 @@
         "https://cdn.dummyjson.com/product-images/100/3.jpg",
         "https://cdn.dummyjson.com/product-images/100/thumbnail.jpg"
       ]
+    },
+    {
+      "title": "Mac Book Air ",
+      "description": "Mac Book Air ",
+      "brand": "Apple",
+      "category": "laptops",
+      "price": 1111,
+      "discountPercentage": 11,
+      "stock": 22,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/6/thumbnail.png",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/6/thumbnail.png",
+        "https://cdn.dummyjson.com/product-images/6/thumbnail.png",
+        "https://cdn.dummyjson.com/product-images/6/thumbnail.png",
+        "https://cdn.dummyjson.com/product-images/6/thumbnail.png"
+      ],
+      "id": "101"
     }
   ],
   "brands": [
@@ -1845,469 +1860,469 @@
       "value": "Apple",
       "label": "Apple",
       "checked": false,
-      "id": "5a6f"
+      "id": "db42"
     },
     {
       "value": "Samsung",
       "label": "Samsung",
       "checked": false,
-      "id": "b57c"
+      "id": "fdfb"
     },
     {
       "value": "OPPO",
       "label": "OPPO",
       "checked": false,
-      "id": "064d"
+      "id": "86ca"
     },
     {
       "value": "Huawei",
       "label": "Huawei",
       "checked": false,
-      "id": "0031"
+      "id": "03ac"
     },
     {
       "value": "Microsoft Surface",
       "label": "Microsoft Surface",
       "checked": false,
-      "id": "8dae"
+      "id": "0a30"
     },
     {
       "value": "Infinix",
       "label": "Infinix",
       "checked": false,
-      "id": "6f95"
+      "id": "50d8"
     },
     {
       "value": "HP Pavilion",
       "label": "HP Pavilion",
       "checked": false,
-      "id": "c1d7"
+      "id": "109f"
     },
     {
       "value": "Impression of Acqua Di Gio",
       "label": "Impression of Acqua Di Gio",
       "checked": false,
-      "id": "196d"
+      "id": "0212"
     },
     {
       "value": "Royal_Mirage",
       "label": "Royal_Mirage",
       "checked": false,
-      "id": "4349"
+      "id": "fd20"
     },
     {
       "value": "Fog Scent Xpressio",
       "label": "Fog Scent Xpressio",
       "checked": false,
-      "id": "295a"
+      "id": "bf22"
     },
     {
       "value": "Al Munakh",
       "label": "Al Munakh",
       "checked": false,
-      "id": "9fbb"
+      "id": "22b4"
     },
     {
       "value": "Lord - Al-Rehab",
       "label": "Lord   Al Rehab",
       "checked": false,
-      "id": "15d1"
+      "id": "27de"
     },
     {
       "value": "L'Oreal Paris",
       "label": "L'Oreal Paris",
       "checked": false,
-      "id": "fcea"
+      "id": "c837"
     },
     {
       "value": "Hemani Tea",
       "label": "Hemani Tea",
       "checked": false,
-      "id": "77d3"
+      "id": "6329"
     },
     {
       "value": "Dermive",
       "label": "Dermive",
       "checked": false,
-      "id": "9f9c"
+      "id": "509d"
     },
     {
       "value": "ROREC White Rice",
       "label": "ROREC White Rice",
       "checked": false,
-      "id": "edf0"
+      "id": "0328"
     },
     {
       "value": "Fair & Clear",
       "label": "Fair & Clear",
       "checked": false,
-      "id": "fd34"
+      "id": "c078"
     },
     {
       "value": "Saaf & Khaas",
       "label": "Saaf & Khaas",
       "checked": false,
-      "id": "202a"
+      "id": "0c42"
     },
     {
       "value": "Bake Parlor Big",
       "label": "Bake Parlor Big",
       "checked": false,
-      "id": "f867"
+      "id": "b5ca"
     },
     {
       "value": "Baking Food Items",
       "label": "Baking Food Items",
       "checked": false,
-      "id": "d28e"
+      "id": "544b"
     },
     {
       "value": "fauji",
       "label": "fauji",
       "checked": false,
-      "id": "a697"
+      "id": "2cc3"
     },
     {
       "value": "Dry Rose",
       "label": "Dry Rose",
       "checked": false,
-      "id": "0d9e"
+      "id": "8230"
     },
     {
       "value": "Boho Decor",
       "label": "Boho Decor",
       "checked": false,
-      "id": "74c2"
+      "id": "a06a"
     },
     {
       "value": "Flying Wooden",
       "label": "Flying Wooden",
       "checked": false,
-      "id": "9a8a"
+      "id": "98f7"
     },
     {
       "value": "LED Lights",
       "label": "LED Lights",
       "checked": false,
-      "id": "a79d"
+      "id": "6b56"
     },
     {
       "value": "luxury palace",
       "label": "luxury palace",
       "checked": false,
-      "id": "a9c4"
+      "id": "0898"
     },
     {
       "value": "Golden",
       "label": "Golden",
       "checked": false,
-      "id": "1a3d"
+      "id": "57eb"
     },
     {
       "value": "Furniture Bed Set",
       "label": "Furniture Bed Set",
       "checked": false,
-      "id": "1978"
+      "id": "228b"
     },
     {
       "value": "Ratttan Outdoor",
       "label": "Ratttan Outdoor",
       "checked": false,
-      "id": "d388"
+      "id": "d38e"
     },
     {
       "value": "Kitchen Shelf",
       "label": "Kitchen Shelf",
       "checked": false,
-      "id": "4ef6"
+      "id": "588b"
     },
     {
       "value": "Multi Purpose",
       "label": "Multi Purpose",
       "checked": false,
-      "id": "f118"
+      "id": "705d"
     },
     {
       "value": "AmnaMart",
       "label": "AmnaMart",
       "checked": false,
-      "id": "0a3d"
+      "id": "41ef"
     },
     {
       "value": "Professional Wear",
       "label": "Professional Wear",
       "checked": false,
-      "id": "6663"
+      "id": "54eb"
     },
     {
       "value": "Soft Cotton",
       "label": "Soft Cotton",
       "checked": false,
-      "id": "8ddb"
+      "id": "7c4b"
     },
     {
       "value": "Top Sweater",
       "label": "Top Sweater",
       "checked": false,
-      "id": "ae69"
+      "id": "3a0f"
     },
     {
       "value": "RED MICKY MOUSE..",
       "label": "RED MICKY MOUSE..",
       "checked": false,
-      "id": "8d1c"
+      "id": "e478"
     },
     {
       "value": "Digital Printed",
       "label": "Digital Printed",
       "checked": false,
-      "id": "b063"
+      "id": "1a1c"
     },
     {
       "value": "Ghazi Fabric",
       "label": "Ghazi Fabric",
       "checked": false,
-      "id": "1543"
+      "id": "4424"
     },
     {
       "value": "IELGY",
       "label": "IELGY",
       "checked": false,
-      "id": "4fd7"
+      "id": "91ed"
     },
     {
       "value": "IELGY fashion",
       "label": "IELGY fashion",
       "checked": false,
-      "id": "80db"
+      "id": "9ce5"
     },
     {
       "value": "Synthetic Leather",
       "label": "Synthetic Leather",
       "checked": false,
-      "id": "ca2a"
+      "id": "a0a2"
     },
     {
       "value": "Sandals Flip Flops",
       "label": "Sandals Flip Flops",
       "checked": false,
-      "id": "3157"
+      "id": "080f"
     },
     {
       "value": "Maasai Sandals",
       "label": "Maasai Sandals",
       "checked": false,
-      "id": "59cb"
+      "id": "a8f6"
     },
     {
       "value": "Arrivals Genuine",
       "label": "Arrivals Genuine",
       "checked": false,
-      "id": "1b01"
+      "id": "2d9e"
     },
     {
       "value": "Vintage Apparel",
       "label": "Vintage Apparel",
       "checked": false,
-      "id": "d3ca"
+      "id": "389b"
     },
     {
       "value": "FREE FIRE",
       "label": "FREE FIRE",
       "checked": false,
-      "id": "29b1"
+      "id": "ca66"
     },
     {
       "value": "The Warehouse",
       "label": "The Warehouse",
       "checked": false,
-      "id": "0ce2"
+      "id": "c7a4"
     },
     {
       "value": "Sneakers",
       "label": "Sneakers",
       "checked": false,
-      "id": "688d"
+      "id": "3532"
     },
     {
       "value": "Rubber",
       "label": "Rubber",
       "checked": false,
-      "id": "38b3"
+      "id": "ac8e"
     },
     {
       "value": "Naviforce",
       "label": "Naviforce",
       "checked": false,
-      "id": "c135"
+      "id": "41bf"
     },
     {
       "value": "SKMEI 9117",
       "label": "SKMEI 9117",
       "checked": false,
-      "id": "a9df"
+      "id": "54de"
     },
     {
       "value": "Strap Skeleton",
       "label": "Strap Skeleton",
       "checked": false,
-      "id": "6a6f"
+      "id": "f3ba"
     },
     {
       "value": "Stainless",
       "label": "Stainless",
       "checked": false,
-      "id": "c639"
+      "id": "bb2d"
     },
     {
       "value": "Eastern Watches",
       "label": "Eastern Watches",
       "checked": false,
-      "id": "c097"
+      "id": "8056"
     },
     {
       "value": "Luxury Digital",
       "label": "Luxury Digital",
       "checked": false,
-      "id": "0b75"
+      "id": "3946"
     },
     {
       "value": "Watch Pearls",
       "label": "Watch Pearls",
       "checked": false,
-      "id": "aca1"
+      "id": "50a1"
     },
     {
       "value": "Bracelet",
       "label": "Bracelet",
       "checked": false,
-      "id": "2dae"
+      "id": "f2e0"
     },
     {
       "value": "LouisWill",
       "label": "LouisWill",
       "checked": false,
-      "id": "b27d"
+      "id": "a9d1"
     },
     {
       "value": "Copenhagen Luxe",
       "label": "Copenhagen Luxe",
       "checked": false,
-      "id": "f8a8"
+      "id": "58a0"
     },
     {
       "value": "Steal Frame",
       "label": "Steal Frame",
       "checked": false,
-      "id": "33b0"
+      "id": "8fac"
     },
     {
       "value": "Darojay",
       "label": "Darojay",
       "checked": false,
-      "id": "064d"
+      "id": "4937"
     },
     {
       "value": "Fashion Jewellery",
       "label": "Fashion Jewellery",
       "checked": false,
-      "id": "2279"
+      "id": "8bbe"
     },
     {
       "value": "Cuff Butterfly",
       "label": "Cuff Butterfly",
       "checked": false,
-      "id": "157f"
+      "id": "b7b9"
     },
     {
       "value": "Designer Sun Glasses",
       "label": "Designer Sun Glasses",
       "checked": false,
-      "id": "2619"
+      "id": "9700"
     },
     {
       "value": "mastar watch",
       "label": "mastar watch",
       "checked": false,
-      "id": "40e2"
+      "id": "d900"
     },
     {
       "value": "Car Aux",
       "label": "Car Aux",
       "checked": false,
-      "id": "f559"
+      "id": "4ea2"
     },
     {
       "value": "W1209 DC12V",
       "label": "W1209 DC12V",
       "checked": false,
-      "id": "a42b"
+      "id": "b4fb"
     },
     {
       "value": "TC Reusable",
       "label": "TC Reusable",
       "checked": false,
-      "id": "b636"
+      "id": "516f"
     },
     {
       "value": "Neon LED Light",
       "label": "Neon LED Light",
       "checked": false,
-      "id": "cc90"
+      "id": "efd1"
     },
     {
       "value": "METRO 70cc Motorcycle - MR70",
       "label": "METRO 70cc Motorcycle   MR70",
       "checked": false,
-      "id": "725a"
+      "id": "57df"
     },
     {
       "value": "BRAVE BULL",
       "label": "BRAVE BULL",
       "checked": false,
-      "id": "82d3"
+      "id": "2960"
     },
     {
       "value": "shock absorber",
       "label": "shock absorber",
       "checked": false,
-      "id": "eaad"
+      "id": "f515"
     },
     {
       "value": "JIEPOLLY",
       "label": "JIEPOLLY",
       "checked": false,
-      "id": "0be3"
+      "id": "13e1"
     },
     {
       "value": "Xiangle",
       "label": "Xiangle",
       "checked": false,
-      "id": "0be6"
+      "id": "7b99"
     },
     {
       "value": "lightingbrilliance",
       "label": "lightingbrilliance",
       "checked": false,
-      "id": "badb"
+      "id": "f564"
     },
     {
       "value": "Ifei Home",
       "label": "Ifei Home",
       "checked": false,
-      "id": "1aa5"
+      "id": "e07e"
     },
     {
       "value": "DADAWU",
       "label": "DADAWU",
       "checked": false,
-      "id": "cb1f"
+      "id": "b88b"
     },
     {
       "value": "YIOSI",
       "label": "YIOSI",
       "checked": false,
-      "id": "ad53"
+      "id": "a4fe"
     }
   ],
   "categories": [
@@ -2315,127 +2330,128 @@
       "value": "smartphones",
       "label": "smartphones",
       "checked": false,
-      "id": "468f"
+      "id": "dddc"
     },
     {
       "value": "laptops",
       "label": "laptops",
       "checked": false,
-      "id": "c0ad"
+      "id": "f370"
     },
     {
       "value": "fragrances",
       "label": "fragrances",
       "checked": false,
-      "id": "0528"
+      "id": "643c"
     },
     {
       "value": "skincare",
       "label": "skincare",
       "checked": false,
-      "id": "932a"
+      "id": "6d34"
     },
     {
       "value": "groceries",
       "label": "groceries",
       "checked": false,
-      "id": "afdd"
+      "id": "2a36"
     },
     {
       "value": "home-decoration",
       "label": "home decoration",
       "checked": false,
-      "id": "6984"
+      "id": "6491"
     },
     {
       "value": "furniture",
       "label": "furniture",
       "checked": false,
-      "id": "8aa0"
+      "id": "7aa3"
     },
     {
       "value": "tops",
       "label": "tops",
       "checked": false,
-      "id": "9e78"
+      "id": "8ed7"
     },
     {
       "value": "womens-dresses",
       "label": "womens dresses",
       "checked": false,
-      "id": "b79c"
+      "id": "1865"
     },
     {
       "value": "womens-shoes",
       "label": "womens shoes",
       "checked": false,
-      "id": "f228"
+      "id": "856c"
     },
     {
       "value": "mens-shirts",
       "label": "mens shirts",
       "checked": false,
-      "id": "093a"
+      "id": "a79e"
     },
     {
       "value": "mens-shoes",
       "label": "mens shoes",
       "checked": false,
-      "id": "60b1"
+      "id": "5a44"
     },
     {
       "value": "mens-watches",
       "label": "mens watches",
       "checked": false,
-      "id": "e701"
+      "id": "2891"
     },
     {
       "value": "womens-watches",
       "label": "womens watches",
       "checked": false,
-      "id": "4a48"
+      "id": "e0ff"
     },
     {
       "value": "womens-bags",
       "label": "womens bags",
       "checked": false,
-      "id": "8438"
+      "id": "0da8"
     },
     {
       "value": "womens-jewellery",
       "label": "womens jewellery",
       "checked": false,
-      "id": "b9d2"
+      "id": "22ca"
     },
     {
       "value": "sunglasses",
       "label": "sunglasses",
       "checked": false,
-      "id": "85cf"
+      "id": "d791"
     },
     {
       "value": "automotive",
       "label": "automotive",
       "checked": false,
-      "id": "7c5f"
+      "id": "04c3"
     },
     {
       "value": "motorcycle",
       "label": "motorcycle",
       "checked": false,
-      "id": "d11a"
+      "id": "7848"
     },
     {
       "value": "lighting",
       "label": "lighting",
       "checked": false,
-      "id": "9303"
+      "id": "760b"
     }
   ],
   "users": [
     {
       "email": "test@gmail.com",
       "password": "Qwerty123",
+      "role": "user",
       "addresses": [
         {
           "name": "Abhishek Rathore",
@@ -2454,15 +2470,6 @@
           "pinCode": "110006",
           "phone": "12312331232",
           "street": "12th cross"
-        },
-        {
-          "name": "Arpit Kasaudhan",
-          "email": "kasaudhanarpit37@gmail.com",
-          "phone": "07393076785",
-          "street": "surti Hatta Purani Basti",
-          "city": "Basti",
-          "state": "Uttar Pradesh",
-          "pinCode": "272002"
         }
       ],
       "id": "1"
@@ -2470,6 +2477,7 @@
     {
       "email": "demo@gmail.com",
       "password": "Qwerty123",
+      "role": "user",
       "addresses": [
         {
           "name": "Demo user",
@@ -2482,9 +2490,38 @@
         }
       ],
       "id": "2"
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "Qwerty123",
+      "addresses": [],
+      "role": "admin",
+      "id": "3"
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "id": "f9dc",
+      "title": "iPhone 9",
+      "description": "An apple mobile which is nothing like apple",
+      "price": 993,
+      "discountPercentage": 12.96,
+      "rating": 0,
+      "stock": 94,
+      "brand": "Apple",
+      "category": "smartphones",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/1/1.jpg",
+        "https://cdn.dummyjson.com/product-images/1/2.jpg",
+        "https://cdn.dummyjson.com/product-images/1/3.jpg",
+        "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+      ],
+      "deleted": true,
+      "quantity": 1,
+      "user": "1"
+    }
+  ],
   "orders": [
     {
       "items": [
@@ -2808,92 +2845,6 @@
       },
       "status": "pending",
       "id": "5"
-    },
-    {
-      "id": "f74e",
-      "items": [
-        {
-          "id": "1943",
-          "title": "Samsung Universe 9",
-          "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
-          "price": 1249,
-          "discountPercentage": 15.46,
-          "rating": 4.09,
-          "stock": 36,
-          "brand": "Samsung",
-          "category": "smartphones",
-          "thumbnail": "https://cdn.dummyjson.com/product-images/3/thumbnail.jpg",
-          "images": [
-            "https://cdn.dummyjson.com/product-images/3/1.jpg"
-          ],
-          "quantity": 1,
-          "user": "1"
-        },
-        {
-          "id": "0c78",
-          "title": "Samsung Universe 9",
-          "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
-          "price": 1249,
-          "discountPercentage": 15.46,
-          "rating": 4.09,
-          "stock": 36,
-          "brand": "Samsung",
-          "category": "smartphones",
-          "thumbnail": "https://cdn.dummyjson.com/product-images/3/thumbnail.jpg",
-          "images": [
-            "https://cdn.dummyjson.com/product-images/3/1.jpg"
-          ],
-          "quantity": 1,
-          "user": "1"
-        }
-      ],
-      "totalAmount": 2498,
-      "totalItems": 2,
-      "user": {
-        "email": "test@gmail.com",
-        "password": "Qwerty123",
-        "addresses": [
-          {
-            "name": "Abhishek Rathore",
-            "email": "test@gmail.com",
-            "phone": "1234567788",
-            "street": "11th Main",
-            "city": "Banaglore",
-            "state": "Karnataka",
-            "pinCode": "560034"
-          },
-          {
-            "name": "Jack Morris",
-            "email": "jack@gmail.com",
-            "city": "Delhi",
-            "state": "Delhi",
-            "pinCode": "110006",
-            "phone": "12312331232",
-            "street": "12th cross"
-          },
-          {
-            "name": "Arpit Kasaudhan",
-            "email": "kasaudhanarpit37@gmail.com",
-            "phone": "07393076785",
-            "street": "surti Hatta Purani Basti",
-            "city": "Basti",
-            "state": "Uttar Pradesh",
-            "pinCode": "272002"
-          }
-        ],
-        "id": "1"
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Arpit Kasaudhan",
-        "email": "kasaudhanarpit37@gmail.com",
-        "phone": "07393076785",
-        "street": "surti Hatta Purani Basti",
-        "city": "Basti",
-        "state": "Uttar Pradesh",
-        "pinCode": "272002"
-      },
-      "status": "pending"
     }
   ]
 }
