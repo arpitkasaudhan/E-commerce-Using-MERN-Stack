@@ -11,22 +11,33 @@ export default function Login() {
   const {
     register,
     handleSubmit,
+    setValue,
     formState: { errors },
   } = useForm();
 
+  const handleDemoUser = () => {
+    setValue('email', 'tryfree@gmail.com');
+    setValue('password', 'Abcd@123');
+  };
+
+  const handleDemoAdmin = () => {
+    setValue('email', 'abcd@gmail.com');
+    setValue('password', 'Arpit@1009');
+  };
 
   return (
     <>
-      {user && <Navigate to="/" replace={true}></Navigate>}
+      {user && <Navigate to="/" replace={true} />}
       <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <img
             className="mx-auto h-10 w-auto"
-            src="/ecommerce.png"
+            src="/Logo.svg"
             alt="Your Company"
           />
           <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
-            Log in to your account
+          Welcome To E-Bazar
+         <br/>Log in to Start Shopping
           </h2>
         </div>
 
@@ -105,6 +116,24 @@ export default function Login() {
                 className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Log in
+              </button>
+            </div>
+
+            {/* Demo buttons */}
+            <div className="mt-4 flex justify-between">
+              <button
+                type="button"
+                onClick={handleDemoUser}
+                className="w-full mr-2 justify-center rounded-md bg-gray-300 px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm hover:bg-gray-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-400"
+              >
+                Try as Demo User
+              </button>
+              <button
+                type="button"
+                onClick={handleDemoAdmin}
+                className="w-full ml-2 justify-center rounded-md bg-gray-300 px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm hover:bg-gray-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-400"
+              >
+                Try as Demo Admin
               </button>
             </div>
           </form>

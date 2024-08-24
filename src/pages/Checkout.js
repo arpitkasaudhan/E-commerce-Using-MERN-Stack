@@ -15,7 +15,8 @@ import {
 } from '../features/order/orderSlice';
 import { selectUserInfo } from '../features/user/userSlice';
 import { discountedPrice } from '../app/constants';
-
+import NavBar from '../features/navbar/Navbar';
+import Footer from '../features/common/Footer';
 function Checkout() {
   const dispatch = useDispatch();
   const {
@@ -80,6 +81,7 @@ function Checkout() {
 
   return (
     <>
+    <NavBar></NavBar>
       {!items.length && <Navigate to="/" replace={true}></Navigate>}
       {currentOrder &&  currentOrder.paymentMethod ==='cash' && (
         <Navigate
@@ -93,13 +95,12 @@ function Checkout() {
           replace={true}
         ></Navigate>
       )}
-
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-5">
           <div className="lg:col-span-3">
             {/* This form is for address */}
             <form
-              className="bg-white px-5 py-12 mt-12"
+              className="bg-white px-5 py-12 "
               noValidate
               onSubmit={handleSubmit((data) => {
                 console.log(data);
@@ -395,7 +396,7 @@ function Checkout() {
             </div>
           </div>
           <div className="lg:col-span-2">
-            <div className="mx-auto mt-12 bg-white max-w-7xl px-2 sm:px-2 lg:px-4">
+            <div className="mx-auto bg-white max-w-7xl px-2 sm:px-2 lg:px-4">
               <div className="border-t border-gray-200 px-0 py-6 sm:px-0">
                 <h1 className="text-4xl my-5 font-bold tracking-tight text-gray-900">
                   Cart
@@ -500,6 +501,7 @@ function Checkout() {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }
